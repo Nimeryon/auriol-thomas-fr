@@ -148,7 +148,7 @@ const Form = (props) => {
                     <Button variant="contained" color="secondary" fullWidth={true} onClick={(e) => { generate() }}>Generate</Button>
                 </Grid>
                 <Grid item xs={6} sm={3}>
-                    <Button variant="outlined" color="secondary" fullWidth={true} onClick={(e) => { undo() } disabled={true}}>Undo</Button>
+                    <Button variant="outlined" color="secondary" fullWidth={true} onClick={(e) => { undo() }} disabled={true}>Undo</Button>
                 </Grid>
                 <Grid item xs={6} sm={3}>
                     <Button variant="outlined" color="secondary" fullWidth={true} onClick={(e) => { reset() }}>Reset</Button>
