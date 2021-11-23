@@ -6,7 +6,7 @@ import Home from "./Views/Home.js";
 import Tools from "./Views/Tools/Tools.js";
 // Components
 import Navbar from './Components/Navbar.js';
-import Footer from './Components/Footer/footer.js';
+import Footer from './Components/Footer/Footer.js';
 // Material-ui
 import { CssBaseline, Container } from "@material-ui/core";
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
